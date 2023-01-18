@@ -6,7 +6,7 @@ import { TableFilterComponent } from './components/table-filter/table-filter.com
 import { NotFoundComponent } from './shared/not-found/not-found.component';
 
 const routes: Routes = [
-  { path: 'home', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'form', component: FormComponent },
   { path: 'table/:id/table-filtered', component: TableFilterComponent },
